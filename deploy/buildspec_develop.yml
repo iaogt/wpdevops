@@ -4,6 +4,8 @@ phases:
   install:
     run-as: Linux-user-name
     on-failure: ABORT
+    runtime-versions:
+      nodejs: 12
+  build:
     commands:
-      - apt install nodejs
-
+      nodejs deploy/tests/test1.js

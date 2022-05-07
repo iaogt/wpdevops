@@ -8,4 +8,4 @@ phases:
       nodejs: 12
   build:
     commands:
-      nodejs deploy/tests/test1.js
+      node deploy/tests/test1.js
